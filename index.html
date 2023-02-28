@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>My Book | Home</title>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS File-->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <!-- Book Container -->
+    <div class="container">
+        <h1>My<span class="title_highlight">Books</span></h1>
+        <button class="modal_btn">+</button>
+        <hr>
+        <div class="book_list"></div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal">
+        <div class="modal_title flex">
+            <h2>Book information</h2>
+            <span class="close_modal"><img src="img/close-btn.png" alt="close btn"></span>
+        </div>
+        
+        <div class="inputs flex">
+            <label for="book_title">Title</label>
+            <input type="text" id="book_title">
+            <label for="book_author">Author</label>
+            <input type="text" id="book_author">
+            <label for="book_year">Year</label>
+            <input type="text" id="book_year">
+        </div>
+
+        <button id="add_book">Add</button>
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="js/index.js"></script>
+</body>
+</html>
